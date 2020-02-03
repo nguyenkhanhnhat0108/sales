@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <div>
         <h1>This is your app's protected area.</h1>
-        <p>Any routes here will also be protected dddd</p>
+        <p>Any routes here will also be protected ddddddd</p>
         <p>{user.email}</p>
         <button onClick={this.handleLogout}>Logout</button>
         {isLoggingOut && <p>Logging Out....</p>}
